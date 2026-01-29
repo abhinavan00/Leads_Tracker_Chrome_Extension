@@ -1,0 +1,42 @@
+body {
+    font-family: "Sora", sans-serif;
+    background: #F4F4F4;
+}
+
+#main-container {
+    margin-top: 20px;
+    min-width: 400px;
+    background: #FFFFFF;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+}
+
+input {
+    font-family: "Sora", sans-serif;
+    width: 100%;
+    height: 28px;
+    box-sizing: border-box;
+    background: #DEDEE9;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#btn-container {
+    width: 100%;
+    margin: 10px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    background: #216FF4;
+    width: 110px;
+    height: 28px;
+    border: none;
+    border-radius: 10px;
+    font-family: "Sora", sans-serif;
+    color: #FFFFFF;
+}
