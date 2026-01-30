@@ -1,10 +1,13 @@
 body {
     font-family: "Sora", sans-serif;
     background: #F4F4F4;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 #main-container {
     margin-top: 20px;
+    margin-bottom: 30px;
     min-width: 400px;
     background: #FFFFFF;
     text-align: center;
@@ -40,3 +43,32 @@ button {
     font-family: "Sora", sans-serif;
     color: #FFFFFF;
 }
+
+ul {
+    list-style: none;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 0;
+}
+
+li {
+    background: #FFFFFF;
+    padding: 20px ;
+    border-radius: 10px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+a {
+    margin-left: 15px;
+    text-decoration: none;
+    font-family: "Sora", sans-serif;
+    font-size: 17px;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
