@@ -14,7 +14,7 @@ if (leadsFromLocalStorage) {
 
 saveTabBtn.addEventListener('click', function() {
     chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
-        leads.push(tabs)
+        leads.push(tabs[0].url)
         localStorage.setItem('myLeads', JSON.stringify(leads))
         render(leads)
     })
